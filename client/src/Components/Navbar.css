@@ -1,0 +1,131 @@
+.navbar{
+    text-align: right;
+    z-index: 10;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 75px;
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.navbar_black{
+    text-align: right;
+    z-index: 10;
+    color: #222222;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 65px;
+    background-color: #ffffff;
+}
+
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1300px;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    width:100%;
+    padding: 25px;
+    z-index: 100;
+    position: relative;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Playfair Display', serif;
+    font-size:30px;
+    font-weight:800;
+    cursor: pointer;
+}
+
+.list_container{
+    display: block;
+}
+
+.list_item{
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+
+.list_item a{
+    text-decoration: none;
+    color: #f4f4f4;
+    margin-right:10px;
+    padding:15px 20px;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+
+.list_item p{
+    color: #f4f4f4;
+    border:none;
+    margin-right: 10px;
+    padding:15px 20px;
+    cursor: pointer;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+
+}
+
+.list_item_black a{
+    margin-right:10px;
+    padding:15px 20px;
+    text-decoration: none;
+    color: #222222;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+
+.list_item_black p{
+    margin-right:10px;
+    padding:15px 20px;
+    text-decoration: none;
+    color: #222222;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+
+
+.list_item a:hover{
+    color: #FFD700;
+    border-bottom: 1px solid #FFD700;
+}
+
+.list_item p:hover{
+    color: #FFD700;
+    border-bottom: 1px solid #FFD700;
+}
+
+.list_item_black p:hover{
+    color: #FFD700;
+    border: none;
+}
+
+.list_item_black a:hover{
+    color: #FFD700;
+    border: none;
+}
+
+.list_item_black a:hover{
+    color:red;
+}
+
+.list_item_black p:hover{
+    color:red;
+}
